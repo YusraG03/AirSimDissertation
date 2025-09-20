@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Launch Blocks (UE4.27)",
+      "type": "shell",
+      "command": "\"C:\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe\" \"C:\\Epic Games\\Projects\\AirSim\\Unreal\\Environments\\Blocks\\Blocks.uproject\"",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run: fly_square",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe ${workspaceFolder}\\scripts\\fly_square.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run: capture_sweep",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe ${workspaceFolder}\\scripts\\capture_sweep.py",
+      "problemMatcher": []
+    }
+  ]
+}
