@@ -1,6 +1,24 @@
-﻿.venv/
+﻿# Python
 __pycache__/
-*.pyc
-data/runs/
+*.py[cod]
+.venv/
+.env
+
+# Logs & runs
+data/runs/**
+runs/**
+results/**
+*.log
+
+# Checkpoints & models
+**/checkpoints/**
+*.ckpt
+*.pt
+*.pth
+
+# Notebooks junk
 .ipynb_checkpoints/
-.vscode/*.log
+
+# OS
+.DS_Store
+Thumbs.db
